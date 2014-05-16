@@ -1,4 +1,47 @@
-html{
-	font-family: sans-serif;
-	padding-top:100px;	
+body{
+	color: $brand-color;
+	font-family: $brand-face;
+}
+
+
+.demo-block{
+    padding:0.5em;
+    color:#fff;
+    border-radius:4px;
+}
+
+
+.one-whole {
+	background-color: lighten($brand-color, 1%);
+}
+
+.three-quarters {
+	background-color: lighten($brand-color, 40%);
+}
+
+.one-half {
+	background-color: lighten($brand-color, 30%);
+}
+
+.one-quarter {
+	background-color: lighten($brand-color, 20%);
+}
+
+.one-third {
+	background-color: lighten($brand-color, 10%);
+}
+
+
+p, h1, h2 {
+	margin: 0;
+}
+	h1{
+		text-align: center;
+	}
+
+
+*{
+    -webkit-transition:0.2s width;
+       -moz-transition:0.2s width;
+            transition:0.2s width;
 }

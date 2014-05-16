@@ -15,7 +15,7 @@
  * Setup
  */
 @import "vars";
-@import "/evanzio/responsive/css/inuit.css";
+@import "inuit.css/inuit";
 
 
  
@@ -26,3 +26,4 @@
 //@import "ui/example";
 
 @import "ui/page";
+@import "ui/nav";

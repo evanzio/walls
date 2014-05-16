@@ -5,8 +5,8 @@
 
 # No minification
 #sass --watch style.scss:style.css --style expanded
-cd ~/evanzio/responsive/css
-sass --watch responsive.scss:responsive.min.css --style compressed
+cd ~/evanzio/walls/css
+sass --watch walls.scss:walls.min.css --style compressed
 
 
 exit 0
