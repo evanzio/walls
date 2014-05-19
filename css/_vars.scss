@@ -59,7 +59,7 @@ $use-greybox:       true;
  * Place any variables that should override inuit.css’ defaults here.
  */
 
-
+$brand-color: #ef4623;
 
 
 
@@ -69,3 +69,16 @@ $use-greybox:       true;
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
+
+
+/**
+ * Very simple, pared-back, mobile-first, responsive nav.
+ */
+$responsive-nav-hit-area:   44px;
+$responsive-nav-icon-size:  16px;
+$responsive-nav-color:      #ef4623;
+$responsive-nav-background: #fff;
+$responsive-nav-borders:    lighten($responsive-nav-background, 10%);
+
+
+

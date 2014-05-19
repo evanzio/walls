@@ -1,34 +1,57 @@
 body{
-	color: $brand-color;
+	color: #fff;
 	font-family: $brand-face;
 }
 
+header {
+	background: url(../img/home/walls.png) no-repeat #ef4623 50% 50%;
+    height:100vh;
+    min-height:425px;
+	border-left: #fff solid 4px;
+	border-right: #fff solid 4px;
+}
+
+header h1 {
+	position:relative;
+	top: 80%;
+}
+
+
 
 .demo-block{
-    padding:0.5em;
     color:#fff;
-    border-radius:4px;
+    text-align: center;
+    padding-bottom:0.5em;
+
 }
 
 
-.one-whole {
-	background-color: lighten($brand-color, 1%);
+.speachBubble{
+	background: url(../img/home/speachBubble.png) no-repeat #fff 50% 50%;
+	height:460px;
+}
+.speachBubble p {
+	font-size: 2.25em;
+	line-height: 1em;
+	padding:1em;
+	position: relative;
+	text-align: center;
+	top:14%;
+	font-family: 'Lobster', cursive;
 }
 
-.three-quarters {
-	background-color: lighten($brand-color, 40%);
+.cornettoMic{
 }
 
-.one-half {
-	background-color: lighten($brand-color, 30%);
+
+.intro {
+	color: #df3284;
+	font-size: $h1-size;
+	padding: .5em;
 }
 
-.one-quarter {
-	background-color: lighten($brand-color, 20%);
-}
-
-.one-third {
-	background-color: lighten($brand-color, 10%);
+.img--center {
+	margin-bottom:0;
 }
 
 
